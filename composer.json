@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "TddCourse\\": "src/",
+            "TddCourse\\Tests\\": "tests/"
+        }
+    },
+
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    }
+}

@@ -1,3 +1,6 @@
+# PhpStorm project folder
+/.idea/
+
 composer.phar
 /vendor/
 

@@ -26,7 +26,6 @@ class ConverterFactory
     }
 
     /**
-     * @param $data
      * @return StrongTextConverter
      */
     private function getStrong()
@@ -35,7 +34,6 @@ class ConverterFactory
     }
 
     /**
-     * @param $data
      * @return ItalicTextConverter
      */
     private function getItalic()
@@ -44,7 +42,6 @@ class ConverterFactory
     }
 
     /**
-     * @param $data
      * @return InlineImageConverter
      */
     private function getImage()
@@ -53,7 +50,6 @@ class ConverterFactory
     }
 
     /**
-     * @param $data
      * @return InlineLinkConverter
      */
     private function getLink()

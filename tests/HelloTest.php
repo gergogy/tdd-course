@@ -5,10 +5,8 @@ namespace TddCourse\Tests;
 use TddCourse\Hello;
 
 /**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 01.
- * Time: 23:10
+ * Class HelloTest
+ * @package TddCourse\Tests
  */
 class HelloTest extends \PHPUnit_Framework_TestCase
 {

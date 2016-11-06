@@ -1,17 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 06.
- * Time: 13:30
- */
 
 namespace TddCourse\TestsMarkdownParser\Converters;
-
 
 use TddCourse\MarkdownParser\Converters\ConverterInterface;
 use TddCourse\MarkdownParser\Converters\InlineLinkConverter;
 
+/**
+ * Class InlineLinkConverterTest
+ * @package TddCourse\TestsMarkdownParser\Converters
+ */
 class InlineLinkConverterTest extends \PHPUnit_Framework_TestCase
 {
     const TEST_STRING = '[http://example.com](example)';

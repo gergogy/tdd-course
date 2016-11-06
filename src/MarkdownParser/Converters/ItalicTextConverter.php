@@ -1,14 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 06.
- * Time: 12:56
- */
 
 namespace TddCourse\MarkdownParser\Converters;
 
-
+/**
+ * Class ItalicTextConverter
+ * @package TddCourse\MarkdownParser\Converters
+ */
 class ItalicTextConverter implements ConverterInterface
 {
     /**

@@ -2,11 +2,13 @@
 
 namespace TddCourse\Tests\MarkdownParser\Converters;
 
-use TddCourse\MarkdownParser\Converters\Converter;
 use TddCourse\MarkdownParser\Converters\ConverterFactory;
 use TddCourse\MarkdownParser\Converters\ConverterInterface;
-use TddCourse\MarkdownParser\Converters\StrongTextConverter;
 
+/**
+ * Class ConverterFactoryTest
+ * @package TddCourse\Tests\MarkdownParser\Converters
+ */
 class ConverterFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**

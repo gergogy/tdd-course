@@ -1,17 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 06.
- * Time: 13:57
- */
 
 namespace TddCourse\MarkdownParser;
-
 
 use TddCourse\MarkdownParser\Converters\ConverterFactory;
 use TddCourse\MarkdownParser\Converters\ConverterInterface;
 
+/**
+ * Class MarkdownParser
+ * @package TddCourse\MarkdownParser
+ */
 class MarkdownParser
 {
     /**

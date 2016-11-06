@@ -4,7 +4,7 @@ namespace TddCourse\MarkdownParser\Converters;
 
 /**
  * Class ConverterFactory
- * @package TddCourse\MarkdownParser
+ * @package TddCourse\MarkdownParser\Converters
  */
 class ConverterFactory
 {

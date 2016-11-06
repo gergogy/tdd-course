@@ -2,7 +2,6 @@
 
 namespace TddCourse\Tests\MarkdownParser\Converters;
 
-
 use TddCourse\MarkdownParser\Converters\ConverterInterface;
 use TddCourse\MarkdownParser\Converters\ItalicTextConverter;
 

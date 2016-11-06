@@ -1,16 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 06.
- * Time: 14:16
- */
 
 namespace TddCourse\Tests\MarkdownParser;
 
-
 use TddCourse\MarkdownParser\MarkdownParser;
 
+/**
+ * Class MarkdownParserTest
+ * @package TddCourse\Tests\MarkdownParser
+ */
 class MarkdownParserTest extends \PHPUnit_Framework_TestCase
 {
     /**

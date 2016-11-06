@@ -3,10 +3,8 @@
 namespace TddCourse;
 
 /**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 05.
- * Time: 11:14
+ * Class RomanNumeral
+ * @package TddCourse
  */
 class RomanNumeral
 {

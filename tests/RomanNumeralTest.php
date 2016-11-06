@@ -4,10 +4,8 @@ namespace TddCourse\Tests;
 use TddCourse\RomanNumeral;
 
 /**
- * Created by PhpStorm.
- * User: blush
- * Date: 2016. 11. 05.
- * Time: 11:09
+ * Class RomanNumeralTest
+ * @package TddCourse\Tests
  */
 class RomanNumeralTest extends \PHPUnit_Framework_TestCase
 {

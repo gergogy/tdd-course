@@ -29,7 +29,6 @@ class ConverterFactoryTest extends \PHPUnit_Framework_TestCase
 
         if (!empty($converters)) {
             $this->assertContainsOnlyInstancesOf(ConverterInterface::class, $converters);
-
         }
     }
 }

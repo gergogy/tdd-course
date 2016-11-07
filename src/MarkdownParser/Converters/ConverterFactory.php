@@ -12,7 +12,8 @@ class ConverterFactory
         'strong' => 'getStrong',
         'italic' => 'getItalic',
         'image' => 'getImage',
-        'link' => 'getLink'
+        'link' => 'getLink',
+        'monospace' => 'getMonospace'
     );
 
     public function getConverters() {
@@ -55,5 +56,13 @@ class ConverterFactory
     private function getLink()
     {
         return new InlineLinkConverter();
+    }
+
+    /**
+     * @return MonospaceTextConverter
+     */
+    private function getMonospace()
+    {
+        return new MonospaceTextConverter();
     }
 }

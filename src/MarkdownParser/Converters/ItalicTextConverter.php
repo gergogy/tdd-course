@@ -14,8 +14,8 @@ class ItalicTextConverter implements ConverterInterface
      */
     public function convert($string)
     {
-        $pattern = '/_(.*)_/U';
-        $replacement = '<i>$1</i>';
+        $pattern = '/(^|\s|>|\b)_(?=\S)([\s\S]+?)_/'; // _(.*)_ was too simple
+        $replacement = '$1<i>$2</i>';
 
         return preg_replace($pattern, $replacement, $string);
     }

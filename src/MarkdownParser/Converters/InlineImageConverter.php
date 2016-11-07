@@ -19,7 +19,7 @@ class InlineImageConverter implements ConverterInterface
         return preg_replace_callback(
             $pattern,
             function ($matches) {
-                return '<img src="' . $matches[1] . '" alt="' . $matches[2] . '">';
+                return '<img src="' . $matches[1] . '" alt="' . $matches[2] . '" />';
             },
             $string
         );

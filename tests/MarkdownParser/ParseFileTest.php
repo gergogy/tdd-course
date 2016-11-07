@@ -12,7 +12,7 @@ class ParseFileTest extends \PHPUnit_Framework_TestCase
         INPUT_FILE = '/input.txt',
         OUTPUT_FILE = '/output.txt',
         TEST_STRING = 'This **_test_** string is _[http://example.com](complex)_, and this is an ![http://example.com](image).',
-        EXPECTED = 'This <strong><i>test</i></strong> string is <i><a href="http://example.com">complex</a></i>, and this is an <img src="http://example.com" alt="image">.';
+        EXPECTED = 'This <strong><i>test</i></strong> string is <i><a href="http://example.com">complex</a></i>, and this is an <img src="http://example.com" alt="image" />.';
 
     /**
      * @var ParseFile

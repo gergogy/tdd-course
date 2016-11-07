@@ -25,7 +25,7 @@ class InlineImageConverterTest extends \PHPUnit_Framework_TestCase
     public function testConverting()
     {
         $this->assertSame(
-            '<img src="http://example.com" alt="example">',
+            '<img src="http://example.com" alt="example" />',
             $this->converter->convert(self::TEST_STRING)
         );
     }

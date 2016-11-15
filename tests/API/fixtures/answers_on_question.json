@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "owner": {
+        "reputation": 5,
+        "user_id": 1,
+        "user_type": "registered",
+        "accept_rate": 5,
+        "profile_image": "http://example.com/",
+        "display_name": "Test user 1",
+        "link": "http://example.com/"
+      },
+      "is_accepted": false,
+      "score": 1,
+      "last_activity_date": 1479039081,
+      "creation_date": 1479039081,
+      "answer_id": 12,
+      "question_id": 1
+    },
+    {
+      "owner": {
+        "reputation": 6,
+        "user_id": 2,
+        "user_type": "registered",
+        "accept_rate": 6,
+        "profile_image": "http://example.com/",
+        "display_name": "Test user 2",
+        "link": "http://example.com/"
+      },
+      "is_accepted": true,
+      "score": 2,
+      "last_activity_date": 1479063384,
+      "creation_date": 1479063384,
+      "answer_id": 13,
+      "question_id": 1
+    }
+  ],
+  "has_more": false,
+  "quota_max": 100,
+  "quota_remaining": 99
+}

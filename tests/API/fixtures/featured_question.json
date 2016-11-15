@@ -1,0 +1,28 @@
+{
+  "items": [{
+    "tags": ["php", "phpunit", "test"],
+    "owner": {
+      "reputation": 1111,
+      "user_id": 1111,
+      "user_type": "registered",
+      "profile_image": "https://example.com/asdf",
+      "display_name": "Example",
+      "link": "http://example.com/users/123456789"
+    },
+    "is_answered": true,
+    "view_count": 1,
+    "bounty_amount": 1,
+    "bounty_closes_date": 1479756789,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1479151989,
+    "creation_date": 1478912944,
+    "last_edit_date": 1478929576,
+    "question_id": 1,
+    "link": "http://example.com",
+    "title": "Example title"
+  }],
+  "has_more": true,
+  "quota_max": 100,
+  "quota_remaining": 99
+}
